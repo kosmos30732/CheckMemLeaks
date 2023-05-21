@@ -18,6 +18,9 @@ for x in list_str:
                 mem_comp=mem_comp[1:]
                 mem_child=[]
                 for z in mem_comp:
+                    if z.find(")")!=-1 and z.find("(")!=-1:
+                        mem_child.append(int(z[z.find("(")+1:z.find(")")]))
+                        continue
                     if z.find("(")!=-1:
                         mem_child.append(int(z[z.find("(")+1:]))
                         continue
