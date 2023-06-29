@@ -1,4 +1,6 @@
-f_trace=open("program_trace.txt")
+import easygui
+input_file = easygui.fileopenbox(filetypes=["*.txt"])
+f_trace=open(input_file)
 list_str=f_trace.readlines()
 mem={}
 alias={}

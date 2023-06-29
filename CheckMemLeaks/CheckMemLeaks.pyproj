@@ -24,7 +24,16 @@
     <Compile Include="CheckMemLeaks.py" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Examples\func ex01\main.c" />
+    <Content Include="Examples\func ex01\program_trace.txt" />
+    <Content Include="Examples\List of lists\maic.c" />
+    <Content Include="Examples\List of lists\program_trace.txt" />
     <Content Include="program_trace.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Examples\" />
+    <Folder Include="Examples\List of lists\" />
+    <Folder Include="Examples\func ex01\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
