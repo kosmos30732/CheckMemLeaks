@@ -6,5 +6,6 @@
 ```
 pip install easygui
 ```
-Примеры с возможными таблицами и примерным кодом из которого сделана таблица лежат в папке [Examples](https://github.com/kosmos30732/CheckMemLeaks/tree/master/CheckMemLeaks/Examples)
+Примеры с возможными таблицами и примерным кодом из которого сделана таблица лежат в папке [Examples](https://github.com/kosmos30732/CheckMemLeaks/tree/master/CheckMemLeaks/Examples).
+Для удобства лежат два варианта примеров с утечкой памяти и без нее.
 Для использования запустите файл **CheckMemLeaks.py** и выберите файл с расширением ***.txt**
