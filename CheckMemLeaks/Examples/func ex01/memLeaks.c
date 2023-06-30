@@ -11,10 +11,10 @@ void ex01(node* p, int v) {
 		y->rt = x;}
 	else {
 		y = x->rt;
-		x->rt = y->lt; node* g = y;
-		y = malloc();}
+		p->lt = x->rt
+		x = malloc();}
 	if (v >= p->key)
-		p->lt = y;
+		p->lt = x;
 	else
-		p->rt = y;
+		p->rt = x;
 }
